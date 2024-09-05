@@ -12,9 +12,11 @@ $doc-font-size              : 12;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* import Lora & Merriweather fonts */
+/* import Lora, Merriweather, Lato fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
@@ -34,10 +36,11 @@ $garamond                   : Garamond, serif;
 $roboto                     : 'Roboto', serif;
 $merriweather               : 'Merriweather', serif;
 $lora                       : 'Lora', serif;
+$lato: 'Lato', sans-serif;
 
 /* $global-font-family         : $sans-serif; */
 /* $header-font-family         : $sans-serif; */
-$global-font-family         : $roboto;
+$global-font-family         : $lato;
 $header-font-family         : $lora;
 $caption-font-family        : $lora;
 
