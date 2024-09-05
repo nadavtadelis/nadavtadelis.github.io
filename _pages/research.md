@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 ## Working Papers
---
+---
 **Experiential Learning in Knowledge Workers: Individual Mastery, Product Spillovers, and Collaborative Synergies**
-<br>     Abstract
+<br> $\quad$ Abstract
 
 ## In Progress
---
+---
 **Adaptive Estimation for Nonparametric Treatments in Double Machine Learning** (Joint with [Manu Navjeevan](https://navjeevan.dev))
 <br>     Abstract
 
