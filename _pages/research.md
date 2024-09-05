@@ -13,10 +13,10 @@ author_profile: true
 ## In Progress
 ---
 **Adaptive Estimation for Nonparametric Treatments in Double Machine Learning** (Joint with [Manu Navjeevan](https://navjeevan.dev))
-<br>     Abstract
+<br> $\quad$ Abstract
 
 **Solutions for Congestion in Matching Markets** (Joint with [Andrew Tai](https://taiandrew.github.io))
-<br>     Abstract
+<br> $\quad$ Abstract
 
 **Learning to Bid in Dynamic Auctions with Asymmetric Information**
-<br>     Abstract
+<br> $\quad$ Abstract
