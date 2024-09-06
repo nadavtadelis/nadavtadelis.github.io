@@ -12,7 +12,7 @@ title                    : "Nadav Tadelis"
 title_separator          : "-"
 name                     : &name "Nadav Tadelis"
 description              : &description "personal description"
-url                      : "https://nadavtadelis.github.io"
+url                      : "https://nadavtadelis.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/nadavtadelis/nadavtadelis.github.io"
 
