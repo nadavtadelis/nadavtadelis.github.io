@@ -351,8 +351,9 @@
   margin: 0;
   padding: 0.5rem 1rem;
   /* font-family: $sans-serif-narrow; */
-   font-family: $PlayfairDisplay;
-  font-size: $type-size-5;
+  font-family: $PlayfairDisplay;
+  /*font-size: $type-size-5;*/
+  font-size: $type-size-4;
   font-weight: bold;
 }
 
@@ -361,8 +362,9 @@
   margin: 0.5rem 0;
   padding: 0.5rem 0;
   /* font-family: $sans-serif-narrow; */
-   font-family: $PlayfairDisplay;
-  font-size: $type-size-6;
+  font-family: $PlayfairDisplay;
+  /*font-size: $type-size-6;*/
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -385,7 +387,8 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    /*font-size: $type-size-6;*/
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
