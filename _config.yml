@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Nadav Tadelis"
-  pronouns         : "he/him"  
+  pronouns         : #"he/him"  # makes formatting weird to include
   bio              : "Senior Economist" #"Economics PhD Candidate, UC Berkeley"
   location         : "Berkeley, CA"
   employer         : "Microsoft" #"UC Berkeley"
