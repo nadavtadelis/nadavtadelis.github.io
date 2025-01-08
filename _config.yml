@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Nadav Tadelis"
-  pronouns         : # example: "she/her"  
-  bio              : "Economics PhD Candidate, UC Berkeley"
+  pronouns         : "he/him"  
+  bio              : "Senior Economist" #"Economics PhD Candidate, UC Berkeley"
   location         : "Berkeley, CA"
-  employer         : "UC Berkeley"
+  employer         : "Microsoft" #"UC Berkeley"
   uri              : # URL
   email            : "ntadelis@berkeley.edu" 
 
