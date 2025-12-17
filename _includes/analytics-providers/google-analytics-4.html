@@ -1,8 +1,22 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  (function() {
+    var allowedHosts = [
+      '{{ site.url | replace: "https://", "" | replace: "http://", "" | split: "/" | first }}'
+    ];
+    if (allowedHosts.indexOf(window.location.hostname) === -1) {
+      console.warn('Analytics disabled for host', window.location.hostname);
+      return;
+    }
 
-  gtag('config', '{{site.analytics.google.tracking_id}}');
+    var gtm = document.createElement('script');
+    gtm.async = true;
+    gtm.src = 'https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}';
+    document.head.appendChild(gtm);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', '{{site.analytics.google.tracking_id}}');
+  })();
 </script>
